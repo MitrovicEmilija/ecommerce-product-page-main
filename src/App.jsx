@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom"
 
-import { Navbar, Body } from './components'
+import { Navbar, Product } from './components'
 
 const App = () => {
   return (
@@ -8,8 +8,8 @@ const App = () => {
       <div className="relative z-0 bg-white">
         <div className="bg-cover bg-no-repeat bg-center">
           <Navbar />
-          <Body />
         </div>
+        <Product />
       </div>
     </BrowserRouter>
   )

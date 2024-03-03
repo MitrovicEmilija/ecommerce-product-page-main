@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
-import Body from "./Body";
+import Product from "./Product";
 
 export {
     Navbar,
-    Body
+    Product
 }
